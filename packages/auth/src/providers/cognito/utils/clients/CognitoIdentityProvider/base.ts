@@ -78,6 +78,7 @@ export const defaultConfig = {
 	computeDelay: jitteredBackoff,
 	userAgentValue: getAmplifyUserAgent(),
 	cache: 'no-store',
+	withCrossDomainCredentials: true,
 };
 
 /**
